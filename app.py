@@ -65,4 +65,4 @@ def predict_cluster():
         return jsonify({'cluster': None, 'distances': None, 'differences': None, 'euclidean_distances': None, 'error': str(e)})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
